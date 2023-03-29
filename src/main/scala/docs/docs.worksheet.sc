@@ -38,12 +38,12 @@ materializedProgram.value.run(11)
 
 // ----- Ask -----------------------
 
-@annotation.nowarn("cat=unused")
-def functionAsk[E]: Ask[E => *, E] =
-  new Ask[E => *, E] {
-    def applicative: Applicative[F] = implicitly
-    def ask: E => E                 = identity
-  }
+// @annotation.nowarn("cat=unused")
+// def functionAsk[E]: Ask[E => *, E] =
+//   new Ask[E => *, E] {
+//     def applicative: Applicative[E => *] = implicitly
+//     def ask: E => E                      = identity
+//   }
 
 // ----- Local -----------------------
 
