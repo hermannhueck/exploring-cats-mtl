@@ -8,9 +8,9 @@ object Versions {
 
   // 3rd party libraries
   val catsEffectVersion = "3.4.8"
-  val catsRetryVersion  = "3.1.0"
+  val catsMtlVersion    = "1.3.0"
   val munitVersion      = "0.7.29"
-  val slf4jVersion      = "2.0.6"
+  val slf4jVersion      = "2.0.7"
 
   // compiler plugins
   val kindProjectorVersion    = "0.13.2"
